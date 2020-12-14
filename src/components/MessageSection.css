@@ -1,0 +1,12 @@
+#main-content{
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: #570e28;
+    color:#fff;
+}
+
+#image-section{
+    margin-left: 20px;
+}

@@ -10,38 +10,46 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/movie_revenue_pred.jpg'
+              text='Movie Revenue Prediction'
+              label='Regression'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/pizzbot.jpg'
+              text='Pizzbot: A conversational assistant to order pizza'
+              label='NLP'
+              path='/services'
+            />
+            <CardItem
+              src='images/amazon_reviews.jpg'
+              text='Amazon Reviews Sentiment Analysis'
+              label='Classification/NLP'
               path='/services'
             />
           </ul>
+          
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/movie_revenue_pred.jpg'
+              text='Page Rank using TF-IDF'
+              label='NLP'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/movie_revenue_pred.jpg'
+              text='Page Rank using TF-IDF'
+              label='NLP'
+              path='/services'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/movie_revenue_pred.jpg'
+              text='Page Rank using TF-IDF'
+              label='NLP'
+              path='/services'
             />
           </ul>
+
         </div>
       </div>
     </div>
