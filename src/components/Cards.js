@@ -31,9 +31,9 @@ function Cards() {
           
           <ul className='cards__items'>
             <CardItem
-              src='images/movie_revenue_pred.jpg'
-              text='Page Rank using TF-IDF'
-              label='NLP'
+              src='images/social_media.jpg'
+              text='Social Media Analysis using Graphs'
+              label='Clustering'
               path='/services'
             />
             <CardItem
@@ -43,8 +43,8 @@ function Cards() {
               path='/services'
             />
             <CardItem
-              src='images/movie_revenue_pred.jpg'
-              text='Page Rank using TF-IDF'
+              src='images/restaurant_tips.jpg'
+              text='Restaurant Tip Analysis'
               label='NLP'
               path='/services'
             />

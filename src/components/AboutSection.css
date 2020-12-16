@@ -1,0 +1,19 @@
+#about-container { 
+  height:93vh;
+  background: #570e28;
+  
+  
+}
+
+#about-content{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 70px;
+}
+
+#about-content h1{
+  text-align: center;
+}

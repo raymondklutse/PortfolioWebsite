@@ -10,7 +10,9 @@ export default function WelcomeSection() {
             <div id="welcome-text">
                 <h5>Hello!</h5>
                 <h1>I'm Raymond </h1>
-                <h2>Data Scientist | Technology Enthusiast | Mobile App Developer </h2>
+                <h2>Technology Enthusiast with interest in Machine Learning, 
+                    Big Data and Deep Learning, and their application in Finance, 
+                    Consulting, Marketing and Health Sectors. </h2>
             </div>
         </div>
     )

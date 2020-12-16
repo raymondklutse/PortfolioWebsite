@@ -1,15 +1,16 @@
 .navbar {
     background: #570e28;
-    height: 80px;
+    height: 60px;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     position: sticky;
     top: 0;
     z-index: 999;
+    border-bottom: 1px solid #ffd8ad;
   }
-  
+
   .navbar-container {
     display: flex;
     justify-content: center;
@@ -41,12 +42,15 @@
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
+    /*justify-content: end;*/
     margin-right: 2rem;
   }
   
   .nav-item {
-    height: 80px;
+    height: 50px;
+    width: fit-content;
+    
+
   }
   
   .nav-links {
@@ -54,13 +58,23 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
     height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: #242424;
+    border-radius: 6px;
+    
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    /*border-bottom: 1px solid #ffd8ad;*/
     transition: all 0.2s ease-out;
+    background-color: #ffd8ad;
+    color: #242424;
+    border-radius: 30;
+    text-align: center;
+    
+    
   }
   
   .fa-bars {
@@ -86,7 +100,6 @@
       width: 100%;
       height: 90vh;
       position: absolute;
-      top: 80px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -108,9 +121,9 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
+      background-color: #ffd8ad;
       color: #242424;
-      border-radius: 0;
+      width: 100%;
     }
   
     .navbar-logo {
@@ -154,6 +167,7 @@
       background: #fff;
       color: #242424;
       transition: 250ms;
+      width: 100%;
     }
   }
   

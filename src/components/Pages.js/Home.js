@@ -1,17 +1,21 @@
-import React from 'react';
 import WelcomeSection from '../WelcomeSection';
-import Cards from '../Cards';
+import AboutSection from '../AboutSection';
+import Contact from '../ContactSection';
+import ProjectsSection from '../ProjectsSection';
 
+import React, { Component } from 'react'
 
-function Home() {
+class Home extends Component {
+  render() {
     return (
       <>
         <WelcomeSection />
-        <Cards />
-        <WelcomeSection />
-        <Cards />
+        <ProjectsSection/>
+        <AboutSection />
+        <Contact />
       </>
-    );
+    )
   }
+}
   
-  export default Home;
+export default Home;
