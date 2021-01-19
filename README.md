@@ -1,2 +1,2 @@
 # Porfolio Website
-Developing a portfolio website using React.js
+In this project, I use React.js to develop my portfolio website in order to showcase my projects.
